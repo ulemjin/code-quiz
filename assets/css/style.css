@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #603F8B;
+    --secondary: #A16AE8;
+    --tertiary: #f8f8ff;
+}
+
+body {
+    background: var(--tertiary);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    padding: 10px 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.instructions {
+    font-size: 150%;
+    line-height: 35px;
+    width: 50%;
+    text-align: center;
+}
+
+.btn {
+    background-color: var(--primary);
+    color: #f8f8ff;
+    outline: none;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1.5rem;
+    border-radius: 12px;
+}
+
+.btn:hover {
+    background-color: var(--secondary);
+}
